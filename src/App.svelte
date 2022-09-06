@@ -69,6 +69,7 @@
 </script>
 
 <main>
+	<h1>Create fake links</h1>
 	<table>
 		<tr>
 			<td>
@@ -128,6 +129,7 @@
 			<td><a href={final}>{final}</a></td>
 		</tr>
 	</table>
+	<p href="mailto:reportfakelink:jonatan@jontes.page">Report misuse</p>
 </main>
 
 <style>

@@ -13,7 +13,7 @@
 		'<scr' +
 		'ipt>' +
 		'location.href = "' +
-		redirect_url +
+		(redirect_url || 'https://jontes.page/') +
 		'"' +
 		'</scr' +
 		'ipt>';

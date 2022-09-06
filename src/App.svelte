@@ -66,6 +66,8 @@
 			image = `https://cdn.discordapp.sk/static/${await response.text()}`;
 		}
 	}
+
+	let fileselector: HTMLInputElement;
 </script>
 
 <main>
@@ -85,9 +87,16 @@
 			</td>
 			<td>
 				<input id="image" bind:value={image} />
-			</td>
-			<td>
-				<input type="file" bind:files on:change={upload} />
+
+				<input
+					style="display:none"
+					bind:this={fileselector}
+					type="file"
+					bind:files
+					on:change={upload}
+				/>
+
+				<button on:click={() => fileselector.click()}>Upload</button>
 			</td>
 		</tr>
 		<tr>
@@ -133,4 +142,8 @@
 </main>
 
 <style>
+	td {
+		text-align: left;
+		padding: 0.3em;
+	}
 </style>

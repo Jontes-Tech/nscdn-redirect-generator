@@ -138,7 +138,7 @@
 			<td><a href={final}>{final}</a></td>
 		</tr>
 	</table>
-	<p href="mailto:reportfakelink:jonatan@jontes.page">Report misuse</p>
+	<a href="mailto:reportfakelink:jonatan@jontes.page">Report misuse</a>
 </main>
 
 <style>

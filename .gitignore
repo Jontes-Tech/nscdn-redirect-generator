@@ -10,6 +10,7 @@ logs
 node_modules/
 npm-debug.log*
 *.ntvs*
+package-lock.json
 pnpm-debug.log*
 pnpm-lock.yaml
 *.sln
@@ -19,3 +20,4 @@ pnpm-lock.yaml
 !.vscode/extensions.json
 yarn-debug.log*
 yarn-error.log*
+yarn.lock
